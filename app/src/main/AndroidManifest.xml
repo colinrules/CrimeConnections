@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".State2"
+            android:label="@string/title_activity_state2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".State3_errorstate"
+            android:label="@string/title_activity_state3_errorstate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".State4"
+            android:label="@string/title_activity_state4"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -13,4 +13,9 @@
     <string name="search_for_criminal_or_victim">Search for Criminal or Victim</string>
     <string name="enter_full_name">Enter full name</string>
     <string name="search">Search</string>
+    <string name="title_activity_state2">State2</string>
+    <string name="title_activity_state3_errorstate">State3_errorstate</string>
+    <string name="title_activity_state4">State4</string>
+    <string name="back">back</string>
+    <string name="Next">Next</string>
 </resources>
