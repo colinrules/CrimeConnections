@@ -11,47 +11,70 @@
         android:id="@+id/button"
         android:layout_width="88dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
         android:text="@string/search"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="142dp"
-        android:layout_height="39dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="91dp"
         android:ems="10"
         android:hint="@string/zip_code"
         android:inputType="textPostalAddress"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="91dp" />
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="142dp"
-        android:layout_height="77dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="57dp"
         android:fontFamily="sans-serif"
         android:text="@string/enter_zip_code"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="57dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="142dp"
-        android:layout_height="77dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginStart="38dp"
         android:fontFamily="sans-serif"
         android:text="@string/select_date_range"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="164dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <RadioGroup
         android:id="@+id/radioGroup6"
-        android:layout_width="125dp"
-        android:layout_height="69dp"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="167dp">
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/editText">
 
         <RadioButton
             android:id="@+id/radioButton8"
@@ -78,19 +101,28 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="145dp"
-        android:layout_height="29dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="194dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginStart="53dp"
         android:text="@string/select_crime_type"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <RadioGroup
         android:id="@+id/radioGroup7"
-        android:layout_width="125dp"
-        android:layout_height="69dp"
-        tools:layout_editor_absoluteX="263dp"
-        tools:layout_editor_absoluteY="294dp">
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup6">
 
         <RadioButton
             android:id="@+id/radioButton14"
@@ -118,20 +150,26 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
-        android:layout_height="36dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="4dp"
         android:text="@string/search_for_criminal_or_victim"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="384dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup7" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="206dp"
-        android:layout_height="47dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="96dp"
         android:ems="10"
         android:hint="@string/enter_full_name"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="460dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 </android.support.constraint.ConstraintLayout>
