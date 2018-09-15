@@ -5,7 +5,9 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".State2">
+    android:background="#0663ba"
+    tools:context=".State2"
+    tools:layout_editor_absoluteY="81dp">
 
     <Button
         android:id="@+id/button5"
@@ -42,5 +44,20 @@
         android:text="@string/NewSearch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="96dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#a91818"
+        android:scaleType="fitCenter"
+        android:src="@drawable/new_crime_img"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownIdInLayout" />
 
 </android.support.constraint.ConstraintLayout>

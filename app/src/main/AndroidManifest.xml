@@ -24,7 +24,7 @@
         <activity
             android:name=".State4"
             android:label="@string/title_activity_state4"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>
