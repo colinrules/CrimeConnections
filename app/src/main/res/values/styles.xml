@@ -3,14 +3,12 @@
     <!-- Base application theme.
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
         Customize your theme here. -->
-    <style name ="custom_actionbar_style" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/custom_style</item>
+    <style name ="custom_no_actionbar" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:theme">@style/custom_style</item>
 
     </style>
 
-    <style name="custom_style" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
-
-        <item name="android:background">@drawable/crime_connect_img1</item>
+    <style name="custom_style" parent="@android:style/Theme.Holo.NoActionBar">
 
     </style>
 

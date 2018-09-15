@@ -9,14 +9,14 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/custom_actionbar_style">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/custom_actionbar_style" />
+            app:popupTheme="@style/Theme.AppCompat.NoActionBar" />
 
     </android.support.design.widget.AppBarLayout>
 

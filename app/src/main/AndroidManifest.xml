@@ -4,8 +4,7 @@
 
 
     <application
-        android:theme="@style/custom_actionbar_style"
-        android:logo="@android:color/transparent">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".MainActivity"
             android:title="@android:color/transparent">
             <intent-filter>
@@ -17,15 +16,15 @@
         <activity
             android:name=".State2"
             android:label="@string/title_activity_state2"
-            android:theme="@style/custom_actionbar_style" />
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".State3_errorstate"
             android:label="@string/title_activity_state3_errorstate"
-            android:theme="@style/custom_actionbar_style" />
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".State4"
             android:label="@string/title_activity_state4"
-            android:theme="@style/custom_actionbar_style"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>
