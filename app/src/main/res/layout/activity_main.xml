@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0d94a3"
+    android:background="#0663ba"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
@@ -218,7 +218,7 @@
         android:scaleType="fitCenter"
         android:src="@drawable/new_crime_img"
         android:visibility="visible"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#a91818"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
