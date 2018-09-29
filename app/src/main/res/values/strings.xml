@@ -3,12 +3,12 @@
     <string name="zip_code">Zip Code</string>
     <string name="enter_zip_code">Enter Zip Code</string>
     <string name="select_date_range">Select Date Range</string>
-    <string name="_1_week">1 Week</string>
-    <string name="_2_weeks">2 Weeks</string>
-    <string name="_3_months">3 Months</string>
+    <string name="_1_week">3 Months</string>
+    <string name="_2_weeks">6 Months</string>
+    <string name="_3_months">9 Months</string>
     <string name="select_crime_type">Select Crime Type</string>
-    <string name="murder">Murder</string>
-    <string name="rape">Rape</string>
+    <string name="murder">Burglary</string>
+    <string name="rape">Accident</string>
     <string name="assault">Assault</string>
     <string name="search_for_criminal_or_victim">Search for Criminal or Victim</string>
     <string name="enter_full_name">Enter full name</string>

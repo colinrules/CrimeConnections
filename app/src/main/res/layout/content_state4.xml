@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".State4"
+    tools:context="com.crimeconnections.crime.State4"
     tools:showIn="@layout/activity_state4">
 
     <Button

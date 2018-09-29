@@ -1,4 +1,4 @@
-package com.crimeconnections.crimeconnections;
+package com.crimeconnections.crime;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -7,16 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class State3_errorstate extends AppCompatActivity {
+import com.crimeconnections.crimeconnections.R;
+
+public class State2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_state3_errorstate);
+        setContentView(R.layout.activity_state2);
 
-
-            }
 
     }
 
-
+}

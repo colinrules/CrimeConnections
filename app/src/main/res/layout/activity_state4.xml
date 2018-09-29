@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0663ba"
-    tools:context=".State4"
+    tools:context="com.crimeconnections.crime.State4"
     tools:layout_editor_absoluteY="81dp">
 
 

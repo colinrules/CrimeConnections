@@ -2,10 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.crimeconnections.crimeconnections">
 
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.crimeconnections.crime.MainActivity"
             android:title="@android:color/transparent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -14,17 +14,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".State2"
+            android:name="com.crimeconnections.crime.State2"
             android:label="@string/title_activity_state2"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".State3_errorstate"
+            android:name="com.crimeconnections.crime.State3_errorstate"
             android:label="@string/title_activity_state3_errorstate"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".State4"
+            android:name="com.crimeconnections.crime.State4"
             android:label="@string/title_activity_state4"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name="com.crimeconnections.crime.CrimeActivity"/>
     </application>
 
 </manifest>

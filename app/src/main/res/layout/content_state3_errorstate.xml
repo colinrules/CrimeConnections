@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".State3_errorstate"
+    tools:context="com.crimeconnections.crime.State3_errorstate"
     tools:showIn="@layout/activity_state3_errorstate">
 
     <Button
