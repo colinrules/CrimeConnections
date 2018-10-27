@@ -6,7 +6,10 @@
     <style name ="custom_no_actionbar" parent="@android:style/Theme.Holo.NoActionBar">
         <item name="android:theme">@style/custom_style</item>
 
+
     </style>
+
+
 
     <style name="custom_style" parent="@android:style/Theme.Holo.NoActionBar">
 
